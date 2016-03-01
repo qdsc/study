@@ -1,6 +1,10 @@
 <?php
 
-$test;
+	$test;
+	while (empty($test)) {
+		echo "true";
+		# code...
+	}
 
 
 ?>
