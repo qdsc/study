@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>index</title>
+		
+	</head>
+
+	<body>
+	<!-- form中含有table -->
+		<form action="" method="post">
+			<table border="1px" width="400px">
+				<caption>用户注册</caption>
+				<tr>
+					<td>用户名</td>
+					<td>
+						<input type="text" size="50" name="name"></input>
+					</td>
+				</tr>
+
+				<tr>
+					<td>密&nbsp;&nbsp;&nbsp;码</td>
+					<td>
+						<input type="password" size="50" name="pass"></input>
+					</td>
+				</tr>
+
+				<tr>
+					<td><input type="submit" value="确认"></input></td>
+					<td><input type="reset" value="重置"></input></td>
+				</tr>
+			</table>
+		</form>
+	<!--  -->
+	<!-- 单选表单 name必须重复相同且必须有value,submit提交的是input标签里面的内容（value）。id必须不同-->
+		<form action="" method="">
+			<span>表单</span>
+			<br>
+			<input type="radio" name="t1" id="t1id1" value="A"></input><label for="t1id1">A</label>
+
+			<input type="radio" name="t1" id="t1id2" value="B"></input><label for="t1id2">B</label>
+
+			<input type="radio" name="t1" id="t1id3" value="C"></input><label for="t1id3">C</label>
+
+			<input type="submit" value="提交"></input>
+		</form>
+	<!-- 结束 -->
+	<!-- 如果为多选radio改为checkbox 并且name不能重复可以使用t1[]数组格式-->
+	</body>
+</html>
